@@ -5,6 +5,8 @@ var request = require('request')
 var cheerio = require('cheerio')
 var schedule = require('node-schedule')
 
+const PORT = process.env.PORT || 5000;
+
 const semesters = [
     'Winter',
     'Spring',
@@ -155,4 +157,4 @@ app.get('/', async (req, res) => {
     console.log(response)
     res.json(response)
 })
-app.listen(5000, () => {})
+app.listen(PORT, () => {})
