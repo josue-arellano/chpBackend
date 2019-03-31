@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0",
+    "node-schedule": "^1.3.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josue-arellano/chpBackend.git"
+  },
+  "author": "Josue Arellano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josue-arellano/chpBackend/issues"
+  },
+  "homepage": "https://github.com/josue-arellano/chpBackend#readme"
+}
